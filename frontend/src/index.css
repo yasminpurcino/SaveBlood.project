@@ -1,0 +1,823 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imgLogo{
+  text-align: center;
+}
+
+.imgLogo img{
+  margin: 20px auto;
+}
+.logo{
+  /* SaveBlood */
+
+
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+text-decoration: none;
+
+color: #C53F3F;
+
+
+mix-blend-mode: darken;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+ .logo:hover{
+  color: #670707;
+}
+
+
+.welcome{
+
+
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+
+color: #C53F3F;
+
+mix-blend-mode: darken;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  
+}
+
+.orangeText{
+
+
+  text-align: center;
+  max-width: 300px;
+  margin: 2px auto;
+  
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  
+  color: #D38F0A;
+
+  
+}
+
+.footer{ 
+
+  background: rgba(200, 200, 200, 0.105);
+   position: absolute;
+  left: calc(50% - 65px);
+
+
+}
+
+.btn{
+  width: 100%;
+}
+
+
+
+.booking .bookNow{
+
+
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  background: #D55555;
+  
+  color: #fafafa;
+  
+  mix-blend-mode: darken;
+  border: 1px solid #C53F3F;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.booking .bookNow:hover{
+  background-color: #C53F3F;
+}
+
+
+.login{
+
+
+/* Red */
+
+background: #EB5757;
+border-radius: 10px;
+
+}
+
+.quiz{
+
+/* Red */
+
+background: #EB5757;
+border-radius: 10px;
+}
+
+.create .createAccount{
+  
+/* Red */
+
+background: #EB5757;
+border-radius: 10px;
+}
+
+.orangeText2{
+  /* Blood stock levels */
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 1px;
+text-align: left;
+
+color: #D38F0A;
+
+
+}
+
+.navbar{
+  position: right;
+
+}
+
+.loginBox {
+  margin: 0 auto;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 33vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ffffff;
+ 
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #EB5757;
+  border: 1px solid #EB5757;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #f12b2b;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0;
+  
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.titleLogin{
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+letter-spacing: -0.408px;
+
+color: #8E8E93;
+ 
+  color: gray;
+
+}
+
+.title {
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+letter-spacing: -0.408px;
+
+color: #8E8E93;
+ 
+  color: gray;
+  
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  
+}
+
+.imgLogin{
+
+  
+  width: 202px;
+  height: 04px;
+  left: 93px;
+  top: 80px;
+  
+
+}
+
+.fontLogin{
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+
+/* identical to box height, or 157% */
+
+letter-spacing: -0.408px;
+
+color: #8E8E93;
+ 
+  color: gray;
+  
+
+}
+
+.fontCreate{
+  /*already have an account?Log in here*/
+
+  
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  
+  letter-spacing: -0.408px;
+  
+  color: #8E8E93;
+  
+  }
+  
+body{
+  font-family: sans-serif;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+ 
+}
+
+.form{
+  font-family: sans-serif;
+  
+  background-color: white;
+  border-radius: 15px;
+  width: 100px;
+  margin: 70px auto;
+   color: gray;
+  /* height: 600px; */
+  
+}
+.formLogin{
+  top: 1px;
+  font-family: sans-serif;
+  
+  background-color: white;
+  border-radius: 15px;
+  width: 300px;
+   color: gray;
+
+  }
+
+.formBook{
+
+  font-family: sans-serif;
+  
+  background-color: white;
+  border-radius: 15px;
+  width: 450px;
+  margin: 270px auto;
+   color: gray;
+   margin: auto;
+
+ 
+}
+
+
+.form-body{
+  text-align: left;
+  font-family: sans-serif;
+
+}
+
+.form-body > *{
+  padding: 0px;
+}
+
+.form__label{
+  width: 5%;
+  
+}
+
+.form_input{
+  width: 60%;
+}
+
+.create2 .createAccount2 button{
+
+
+width: 310px;
+color:#fff;
+font-size: sans-serif;
+
+
+/* Red */
+
+background: #EB5757;
+border-radius: 10px;
+text-align: center;
+font-size: 15px;
+
+}
+
+.imgLogin2{
+
+  width: 202px;
+  height: 04px;
+  left: 100px;
+  top: 90px;
+  
+
+}
+
+.titleQuiz{
+ /* Am I eligible to become a Donor ? */
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+text-align: center;
+margin: 20px auto;
+
+color: #C53F3F;
+
+mix-blend-mode: darken;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.textQuiz{
+  /* In order to donate blood, plasma or platelets, you must pass a list of criteria to ensure that your donation is safe */
+
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 17px;
+line-height: 15px;
+text-align: right;
+
+color: #D38F0A;
+}
+
+.imgLogoQuiz{
+  /* icone logo */
+
+width: 194px;
+margin: 20px auto;
+float:right;
+
+
+
+}
+
+.formQuiz{
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+
+
+color: #C53F3F;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.btnQuiz{
+  /* Frame 18 */
+  background: #EB5757;
+  color: #FFFFFF;
+  margin: 20px;
+  padding: 10px 24px;
+
+}
+
+.label{
+  font-family: 'Inter';
+  color: #363636;
+  font-size: 16px;
+
+}
+
+.bookNow{
+  /* Book Appointment */
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #C53F3F;
+
+}
+
+.name{
+
+  font-family: sans-serif;
+  
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px auto;
+  color: gray;
+  /* height: 600px; */
+  
+}
+
+.main{
+  /* Location: */
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 25px;
+text-align: left;
+
+margin: 5 auto;
+
+color: #C53F3F;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form__labelBook{
+  /* Day/ Time: */
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 25px;
+text-align: center;
+
+color: #C53F3F;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form__inputBook{
+/* ALPHA White */
+
+background: #FFFFFF;
+border: 0.5px solid #8E8E93;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+border-radius: 5px;
+}
+
+.DropDownContainer{
+  width: 10.5em;
+  margin: 0 auto;
+}
+
+.DropDownHeader{
+  margin-bottom: 0.8em;
+  padding: 0.4em 2em 0.4em 1em;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #3faffa;
+  background: #ffffff;
+
+}
+
+.DropDownList{
+  padding: 0;
+  margin: 0;
+  padding-left: 1em;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  color: #3faffa;
+  font-size: 1.3rem;
+  font-weight: 500;
+ 
+}
+
+.ListItem{
+  list-style: none;
+  margin-bottom: 0.8em;
+}
+
+.location{
+  /* image 1 */
+
+ top: 50px;
+  max-width: 300px;
+  margin: 50px auto;
+  z-index: 1;
+  width: 414px;
+  height: 295px;
+
+
+}
+
+.btnBook{
+/* Book Now */
+
+background: #C53F3F;
+color: #FFFFFF;
+text-align: center;
+/* border: 7px solid red; */
+width: 480px;
+
+
+
+
+}
+
+.mainContainer{
+  max-width: 480px;
+  margin: 0 auto;
+
+  height: 100%;
+}
+
+.quizMain{
+
+/* Red */
+
+background: #C53F3F;
+border-radius: 10px;
+}
+
+.booking2 .bookNow2{
+
+  background-color: #C53F3F;
+  border-radius: 10px;
+  border-color: #C53F3F;
+
+}
+.booking2 .bookNow2:hover{
+  background-color: #C53F3F;
+}
+.locationMain{
+
+z-index: 1;
+
+}
+
+
+.linkPageEnd{
+  /* link */
+  text-decoration: none;
+  font-family: 'Helvetica';
+  color: #363636;
+  
+
+}
+
+.linkPageEnd:hover {
+  color: #C53F3F;
+   
+}
+
+
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.6rem 0rem;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+
+
+}
+
+
+.navigation-menu {
+  margin-left: auto;}
+
+  .navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.hamburger {
+  
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #96180f;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: block;
+}
+.hamburger:hover {
+  background-color: #d2d6e7;
+  
+}
+
+
+
+
+  .navigation-menu ul {
+    display: none;
+  }
+
+
+  .navigation-menu ul {
+  
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100vh);
+    background-color:#d3900a70;
+      border-top: 1px solid black;
+    opacity: 100%;
+    z-index: 1;
+  }
+  .navigation-menu li {
+ 
+    text-align: center;
+    margin: 0;
+  }
+  .navBtn {
+    font-size: 22px;
+    font-family: 'Impact';
+    color: #474646;
+    line-height: 1px;
+ 
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navBtn:hover {
+    background-color: white;
+    color:#C53F3F
+  }
+
+
+  .navigation-menu ul {
+    /* previous styles */
+    display: none;
+  }
+
+
+
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+
+
+.containerDash{
+  height: 100%;
+}
+
+
+
+.btnStyle .btn-BookNow button{
+  background: #C53F3F;
+  color: #FFFFFF;
+  text-align: center;
+  /* border: 7px solid red; */
+  width: 480px;
+ 
+}
+
+
+.btnStyle .btn-BookNow button:hover{
+  background-color: #C53F3F;
+}
+
+
+
+.selected{
+  font-size: 15px;
+  font-family: 'Arial';
+  margin: 10px auto;
+}
+
+.form__inputBook {
+  background: #FFFFFF;
+  border: 0.5px solid #8E8E93;
+  box-shadow: 0px 1px 10px rgb(0 0 0 / 4%);
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+
+
+.radioForm{
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.answerQuiz{
+
+color:#363636;
+font-size: 16px;
+font-family: 'Arial';
+text-shadow:none
+}
+
+.resultQuiz{
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 20px;
+  
+  
+  color: #080808;
+  
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  float:right;
+
+
+}
